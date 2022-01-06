@@ -1,0 +1,17 @@
+{
+    "extends": "google",
+    "rules": {
+        "no-console": "off",
+        "linebreak-style": "off"  
+    },
+    "env": {
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "ecmaFeatures": {
+        "experimentalObjectRestSpread": true
+  },
+        "sourceType": "module"
+    }
+}
